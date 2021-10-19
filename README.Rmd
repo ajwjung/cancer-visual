@@ -1,0 +1,25 @@
+---
+title: "README"
+author: "Amy Jung"
+date: "10/14/2021"
+output: html_document
+---
+
+# IDH1 Visualization Graphs
+
+## Background
+
+Glioblastomas (GBMs) are one of the most lethal types of cancer with low survival rate. GBMs are split into two categories: primary and secondary. The former is more common, is generally found in older individuals, and has a poorer prognosis. Among the many genes that are often mutated in GBMs is isocitrate dehydrogenase (IDH). More recently, mutations to IDH have been used as a prognostic biomarker. Three IDH isoforms exist, but IDH1/2 are more prevalent in GBMs.
+
+## Requirements
+
+This project creates simple graphs to visualize basic mutation information about IDH1, such as types of mutations and consequences, similar to what can be found on the International Cancer Genome Consortium's (ICGC) data portal. IDH1 mutation data was downloaded as a `.tsv` file from ICGC's portal on 10/14/2021. R version 4.0.4 (2021-02-15) was used for this project.
+
+## Downloading Data from ICGC
+
+1) Visit ICGC's website and search "IDH1", then click on the gene
+2) Click on the "mutations" tab
+3) Filter for "Brain" as "Primary Site" on the left-hand sidebar
+4) Scroll down and click on "Open in Advanced Search" under the "Most Frequent Somatic Mutations" section
+5) Click on "Export Table as TSV" to download a TSV file of all mutations (71 mutations at time of download)
+

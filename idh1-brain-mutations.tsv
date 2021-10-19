@@ -1,0 +1,72 @@
+Mutation ID	Genomic DNA Change	Type	Consequences	Clinical Significance	Donors affected	Clinical Evidence	Projects Mutation Observed
+MU866	chr2:g.209113112C>T	single base substitution	Missense: IDH1 R132H|Exon: IDH1 |Downstream: IDH1	Pathogenic/Likely pathogenic	382/400	2	GBM-US:22/388|LGG-US:356/508|PBCA-DE:4/499
+MU197	chr2:g.209113113G>A	single base substitution	Missense: IDH1 R132C|Exon: IDH1 |Downstream: IDH1	Pathogenic/Likely pathogenic	23/92	9	GBM-US:1/388|LGG-US:17/508|PBCA-DE:5/499
+MU272	chr2:g.209113113G>C	single base substitution	Missense: IDH1 R132G|Exon: IDH1 |Downstream: IDH1	Pathogenic/Likely pathogenic	14/30	0	GBM-US:1/388|LGG-US:11/508|PBCA-DE:2/499
+MU885	chr2:g.209113113G>T	single base substitution	Missense: IDH1 R132S|Exon: IDH1 |Downstream: IDH1	Pathogenic/Likely pathogenic	9/14	1	LGG-US:9/508
+MU1925731	chr2:g.209116255G>A	single base substitution	Upstream: IDH1-AS1 |Synonymous: IDH1 G7G|Exon: IDH1		2/5	0	PBCA-US:2/186
+MU68062795	chr2:g.209112908A>T	single base substitution	Exon: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-DE:1/499
+MU124842313	chr2:g.209097760G>A	single base substitution	Downstream: IDH1 - AC016697.3		1/1	0	PBCA-US:1/186
+MU99	chr2:g.209113112C>A	single base substitution	Missense: IDH1 R132L|Exon: IDH1 |Downstream: IDH1	Pathogenic/Likely pathogenic	1/15	1	PBCA-US:1/186
+MU124904354	chr2:g.209105557T>C	single base substitution	Upstream: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124799438	chr2:g.209115330A>G	single base substitution	Upstream: IDH1-AS1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU67978218	chr2:g.209130301G>A	single base substitution	Upstream: PIKFYVE |Downstream: AC016697.2 |Intron: IDH1		1/1	0	PBCA-DE:1/499
+MU124828968	chr2:g.209119959G>T	single base substitution	Upstream: IDH1 - IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124877877	chr2:g.209124173G>T	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124840355	chr2:g.209115151->A	insertion of <=200bp	Upstream: IDH1-AS1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124747862	chr2:g.209131826G>A	single base substitution	Upstream: IDH1 |Downstream: AC016697.2 |Intron: PIKFYVE		1/1	0	PBCA-US:1/186
+MU124920774	chr2:g.209104501A>G	single base substitution	Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124888651	chr2:g.209121652G>T	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124817785	chr2:g.209129456G>A	single base substitution	Upstream: PIKFYVE |Downstream: AC016697.2 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124892099	chr2:g.209134321G>A	single base substitution	Upstream: IDH1 |Exon: AC016697.2 |Intron: PIKFYVE		1/1	0	PBCA-US:1/186
+MU124842239	chr2:g.209130701G>A	single base substitution	5 UTR: IDH1 |Upstream: PIKFYVE |Downstream: AC016697.2		1/1	0	PBCA-US:1/186
+MU124815877	chr2:g.209125088G>A	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124768681	chr2:g.209099764C>A	single base substitution	Upstream: AC016697.3 |Downstream: IDH1		1/1	0	PBCA-US:1/186
+MU85136098	chr2:g.209099271A>C	single base substitution	Upstream: AC016697.3 |Downstream: IDH1		1/1	0	PBCA-DE:1/499
+MU124909480	chr2:g.209111074G>T	single base substitution	Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124766551	chr2:g.209106098G>A	single base substitution	Upstream: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124794723	chr2:g.209110851A>C	single base substitution	Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124831238	chr2:g.209100269G>A	single base substitution	Upstream: AC016697.3 |Downstream: IDH1		1/1	0	PBCA-US:1/186
+MU124835684	chr2:g.209102492A>C	single base substitution	Upstream: AC016697.3 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124869157	chr2:g.209112310C>T	single base substitution	Exon: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124805527	chr2:g.209118558C>T	single base substitution	Upstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124817979	chr2:g.209107121G>T	single base substitution	Upstream: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124839468	chr2:g.209096379T>C	single base substitution	Downstream: IDH1 - AC016697.3		1/1	0	PBCA-US:1/186
+MU124842615	chr2:g.209129416A>G	single base substitution	Upstream: PIKFYVE |Downstream: AC016697.2 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124831918	chr2:g.209104309G>T	single base substitution	Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124794890	chr2:g.209130648A>G	single base substitution	Upstream: PIKFYVE |Downstream: AC016697.2 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124805156	chr2:g.209116943G>T	single base substitution	Upstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU81135798	chr2:g.209118331->A	insertion of <=200bp	Upstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-DE:1/499
+MU124796719	chr2:g.209135239G>T	single base substitution	Upstream: IDH1 - AC016697.2 |Intron: PIKFYVE		1/1	0	PBCA-US:1/186
+MU124819493	chr2:g.209111917C>T	single base substitution	Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124767157	chr2:g.209128353G>A	single base substitution	Upstream: PIKFYVE |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124879259	chr2:g.209123220G>A	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124817419	chr2:g.209131196G>A	single base substitution	Upstream: IDH1 |Downstream: AC016697.2 |Intron: PIKFYVE		1/1	0	PBCA-US:1/186
+MU124787124	chr2:g.209111949G>T	single base substitution	Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124810926	chr2:g.209127821G>T	single base substitution	Upstream: PIKFYVE |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU68172408	chr2:g.209106424C>A	single base substitution	Upstream: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-DE:1/499
+MU124780721	chr2:g.209109463T>-	deletion of <=200bp	Upstream: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU9390082	chr2:g.209113895T>C	single base substitution	Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-DE:1/499
+MU124847298	chr2:g.209132863->T	insertion of <=200bp	Upstream: IDH1 |Downstream: AC016697.2 |Intron: PIKFYVE		1/1	0	PBCA-US:1/186
+MU124923556	chr2:g.209122871T>A	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124907133	chr2:g.209096649A>C	single base substitution	Downstream: IDH1 - AC016697.3		1/1	0	PBCA-US:1/186
+MU91882749	chr2:g.209119751G>A	single base substitution	Start Gained: IDH1 |Upstream: IDH1 - IDH1-AS1 |Exon: IDH1		1/1	0	PBCA-DE:1/499
+MU124859377	chr2:g.209115723A>C	single base substitution	Upstream: IDH1-AS1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU80643902	chr2:g.209109046C>T	single base substitution	Upstream: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-DE:1/499
+MU124811670	chr2:g.209121185G>A	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124775271	chr2:g.209109365A>-	deletion of <=200bp	Upstream: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124907193	chr2:g.209123552G>A	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124785883	chr2:g.209126394G>T	single base substitution	Upstream: PIKFYVE |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124888950	chr2:g.209135425G>A	single base substitution	Upstream: IDH1 - AC016697.2 |Intron: PIKFYVE		1/1	0	PBCA-US:1/186
+MU68764002	chr2:g.209123442G>A	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-DE:1/499
+MU124787305	chr2:g.209110798T>C	single base substitution	Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124896838	chr2:g.209121271T>C	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124766343	chr2:g.209105755G>T	single base substitution	Upstream: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124754675	chr2:g.209134115A>G	single base substitution	Upstream: IDH1 |Exon: AC016697.2 |Intron: PIKFYVE		1/1	0	PBCA-US:1/186
+MU124799057	chr2:g.209101951G>A	single base substitution	Upstream: AC016697.3 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124905973	chr2:g.209107583G>T	single base substitution	Upstream: IDH1 |Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124921205	chr2:g.209126989G>A	single base substitution	Upstream: PIKFYVE |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU82049500	chr2:g.209102260G>A	single base substitution	Upstream: AC016697.3 |Intron: IDH1		1/1	0	PBCA-DE:1/499
+MU86943806	chr2:g.209117134G>A	single base substitution	Upstream: IDH1-AS1 |Intron: IDH1		1/2	0	PBCA-US:1/186
+MU124891224	chr2:g.209123563G>A	single base substitution	Upstream: IDH1 |Downstream: IDH1-AS1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124792572	chr2:g.209113804G>A	single base substitution	Downstream: IDH1 |Intron: IDH1		1/1	0	PBCA-US:1/186
+MU124798928	chr2:g.209135056G>A	single base substitution	Upstream: IDH1 - AC016697.2 |Intron: PIKFYVE		1/1	0	PBCA-US:1/186
