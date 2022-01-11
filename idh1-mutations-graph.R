@@ -19,3 +19,14 @@ consequences <- idh1_cons[,4]
 # Extract all consequence types
 all_consequences <- str_extract_all(idh1_data$Consequences,"(^\\d\\s\\w+|^\\w+)(?=: IDH1)|(\\w+)(?=: IDH1)")
 all_consequences
+
+# Count total num of occurrences of each consequence
+counts <- c()
+for (i in all_consequences)
+{
+  counts <- c(counts, i)
+}
+
+counts
+slices <- as.data.frame(table(counts))
+slices
