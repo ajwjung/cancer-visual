@@ -23,3 +23,18 @@ This project creates simple graphs to visualize basic mutation information about
 4) Scroll down and click on "Open in Advanced Search" under the "Most Frequent Somatic Mutations" section
 5) Click on "Export Table as TSV" to download a TSV file of all mutations (71 mutations at time of download)
 
+## Pie Charts
+
+I began by creating pie charts to start off slow and try to really understand how to manipulate the data. Pie charts are *not recommended* graphs because they are not very meaningful. The three graphs I generated demonstrate a few reasons:
+
+1) When multiple slices are close together, the labels are likely to overlap
+* Rotating the chart fixed this issue, but this is not a guaranteed solution each time
+
+2) It's easy to see that the "Upstream" slice is roughly 25% in the original pie chart but not as much when the chart was rotated 110 degrees
+
+## Bar Graph
+
+My original motivation for this project was to recreate the (interactive) bar graph found on ICGC's website. Bar graphs are a better representation of the distribution of consequences compared to pie charts. 
+
+It is important to note that my graph's frequencies for upstream and downstream values do not match up with the numbers found on ICGC's bar graph. I am not sure what filter criteria they use to obtain the frequencies because many entries with upstream/downstream mutations were filtered out, but my script counts all mutations that had an upstream or downstream consequence.
+
