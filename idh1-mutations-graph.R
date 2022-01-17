@@ -1,5 +1,6 @@
 # Load packages
-library(dbplyr)
+library(dplyr)
+library(stringr)
 library(ggplot2)
 library(tidyr)
 
@@ -9,41 +10,40 @@ rm(list=ls())
 # Load data
 idh1_data <- read.table(file = 'idh1-brain-mutations.tsv', sep = '\t', header = TRUE)
 
-# Separate all consequences into new columns
-idh1_cons <- within(idh1_data, Consequences<-data.frame(do.call('rbind', strsplit(as.character(Consequences), '|', fixed=TRUE))))
-
 # Extract all consequence types
-all_consequences <- str_extract_all(idh1_data$Consequences,"(^\\d\\s\\w+|^\\w+)(?=: IDH1)|(\\w+)(?=: IDH1)")
+all_consequences <- idh1_data$Consequences %>%
+  str_extract_all("(^\\d\\s\\w+|^\\w+)(?=: IDH1)|(\\w+)(?=: IDH1)")
 
 # Obtain frequencies of each consequence
-counts <- c()
-for (i in all_consequences)
-{
-  counts <- c(counts, i)
-}
-
-slices <- as.data.frame(table(counts, dnn = list("Counts")), responseName = "Freq")
-
-# Create labels for and get percentages of each slice
-slices$Percent <- round(100*slices$Freq/sum(slices$Freq), digits=1)
-slices$Label <- paste(slices$Counts, " (", slices$Percent, "%)", sep="")
+cons_freq <- data.frame(table(unlist(all_consequences))) %>%
+  rename(Consequence = Var1)
 
 # Generate pie chart
-pie(slices$Freq, labels = slices$Label, main="IDH1 SNPs Consequence Types", 
-    radius = 0.9, col=terrain.colors(nrow(slices))) # original
+# Create columns for percentages and labels (pie chart)
+cons_freq$Percent <- round(100*cons_freq$Freq/sum(cons_freq$Freq), digits=1)
+cons_freq$Label <- paste(cons_freq$Consequence, " (", cons_freq$Percent, "%)", sep="")
 
-pie(slices$Freq, labels = slices$Label, main="IDH1 SNPs Consequence Types", 
-    radius = 0.9, init.angle=90, col=terrain.colors(nrow(slices))) # rotated 90 deg
+pie(cons_freq$Freq, labels = cons_freq$Label,
+    main="IDH1 SNPs Consequence Types", 
+    radius = 0.9, col=terrain.colors(nrow(cons_freq))) # original
 
-pie(slices$Freq, labels = slices$Label, main="IDH1 SNPs Consequence Types", 
-    radius = 0.9, init.angle=115, col=terrain.colors(nrow(slices))) # rotated 110 deg
+pie(cons_freq$Freq, labels = cons_freq$Label,
+    main="IDH1 SNPs Consequence Types", 
+    radius = 0.9, init.angle=90,
+    col=terrain.colors(nrow(cons_freq))) # rotated 90 deg
+
+pie(cons_freq$Freq, labels = cons_freq$Label,
+    main="IDH1 SNPs Consequence Types", 
+    radius = 0.9, init.angle=115,
+    col=terrain.colors(nrow(cons_freq))) # rotated 110 deg
 
 # Generate bar chart
-gg <- ggplot(slices, aes(x = reorder(Counts, -Freq), y = Freq,
-                            fill=rownames(slices))) +
-  ggtitle("Frequencies of IDH1 Mutation Consequences") +
+gg <- ggplot(cons_freq, aes(x = reorder(Consequence, -Freq), y = Freq,
+                            fill=rownames(cons_freq))) +
+  ggtitle("Types of IDH1 Mutations") +
   xlab("Consequence Type") + ylab("# of Mutations") + 
-  geom_bar(stat="identity", show.legend = FALSE) + 
+  geom_bar(stat="identity", show.legend = FALSE) +
+  geom_text(aes(label=Freq), position=position_dodge(width=0.9), vjust=-0.25) + 
   theme_minimal()
 
 gg
