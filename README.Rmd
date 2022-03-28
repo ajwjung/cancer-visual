@@ -38,3 +38,5 @@ My original motivation for this project was to recreate the (interactive) bar gr
 
 It is important to note that my graph's frequencies for upstream and downstream values do not match up with the numbers found on ICGC's bar graph. I am not sure what filter criteria they use to obtain the frequencies because many entries with upstream/downstream mutations were filtered out, but my script counts all mutations that had an upstream or downstream consequence.
 
+## Additional Python script
+I created a Python script that has the same function as the R script to compare and to see how the same analysis can be done in Python. The main intention was to learn more about the pandas package, but I also learned some matplotlib along the way.
